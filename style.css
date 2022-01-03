@@ -1,4 +1,34 @@
+body{
+    background-color: rgba(255, 16, 16, 0.918);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: rgb(202, 220, 221);
+    height: 2rem;
+    padding: 2% 7%;
+
+    
+}
+.header a{
+    text-decoration: none;
+    margin: 0px 10px;
+    font-weight: bold;
+    color:red;
+}
 .container{
-    background-color: red;
+    background-color: rgb(43, 133, 121);
     color: yellow;
+    padding: 10px;
+}
+.btn{
+    border:none;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
 }
