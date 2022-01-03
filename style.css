@@ -3,12 +3,17 @@ body{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: roboto;
+    color: white;
+    width: 100vw;
+    height: 100vh;
 }
 .header{
-    width: 100%;
-    background-color: rgb(202, 220, 221);
+    width: 100vw;
+    background-color: rgb(223, 232, 233);
     height: 2rem;
-    padding: 2% 7%;
+    padding: 1% 6%;
+   
 
     
 }
@@ -18,10 +23,24 @@ body{
     font-weight: bold;
     color:red;
 }
+.right{
+    color: red;
+    float: right;
+   
+}
+
 .container{
     background-color: rgb(43, 133, 121);
-    color: yellow;
-    padding: 10px;
+    color: rgb(245, 245, 245);
+    padding: 5px;
+    font-size: 1.4em;
+    text-align: center;
+
+  
+}
+.container p span{
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 .btn{
     border:none;
@@ -31,4 +50,31 @@ body{
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+
+}
+.fbtn{
+    padding: 10px;
+    text-align: center;
+}
+.fimg{
+    margin: 20px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.fdsc{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+}
+footer{
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
 }
